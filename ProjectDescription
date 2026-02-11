@@ -16,6 +16,10 @@ any user :
   log into one of the trips of the compay he chose at login, and add expense details to the trip
   each expnse detials has the following data:
     date (not mandatory)
+    amount
+    currency
+    description/vendor
+    expense type
     
   
 
@@ -27,6 +31,8 @@ login with email, or google account, or MS account
 sys admin :
   new company (+admin user, prefix for trip numbers)
   new trip
+  new expense type
+
 company admin :
   new user
   disable user
