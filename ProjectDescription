@@ -1,8 +1,10 @@
 # App purpose :
 platform for collecting travel expense reprots from employees
+the platform is created by an accounting firm called BDO Israel
+and it will serve as a tool for the firm's clients (companies) enable the client's employees report their travel expenses
 
 # Main interface :
-Company Admin creates trip data (all mandatory, besides comments):
+Company Admin creates trip record with the following data (all mandatory, besides comments):
   departure date
   return date
   trip purpose
@@ -10,36 +12,58 @@ Company Admin creates trip data (all mandatory, besides comments):
   list of countries visited
   comments
 
-  system assigns trip number, prefix + 4digit running number
+  after creatiion : system assigns trip number, prefix + 4digit running number
 
 any user :
-  log into one of the trips of the compay he chose at login, and add expense details to the trip
+  1. log into the system, 
+  2. chooses a company (if that user is accosiated with multiple companies); and 
+  3. selects one of the trips of the compay he chose at login; and 
+  4. add expense details to the trip
+
   each expnse detials has the following data:
     date (not mandatory)
     amount
     currency
     description/vendor
     expense type
-    
-  
+    employee paid (from company's employees list)
 
+
+system interface 
+  all screens of the system will have BDO logo on it, and will use BDO color scheme (see bdo.co.il)
+  
 system screens:
-  login (+choose company, if user is associated with multiple companies)
-  list of trips , with filters (+add new trip)
-  
-login with email, or google account, or MS account
-sys admin :
-  new company (+admin user, prefix for trip numbers)
-  new trip
-  new expense type
+  1. login screen
+  login with email ans password, or google account, or Microsoft account
+  after login ,user must choose company, if user is associated with multiple companies
 
-company admin :
-  new user
-  disable user
+  2. list of trips , with filters, and option to sort by any field, and a search box (+add new trip botton for company admin user only)
 
-action log
+  3. trip expense report - shows the trip detials on the top part of the screen, and on the bottom part the grid for the expenses details
+      trip expense report can be finilized
+      after trip is finilized it is locked for editing and can only be unlocked by admin user
 
-reports:
-activity log
-expense reports to employee (only his expenses in all the trips in all the companies)
+  4. sys admin :
+      new user / edit existing user  
+      new company / edit existing company
+        for each new company 
+          sys admin must accosiate company admin user (at least one)
+          define a prefix for trip numbers (prefix is 3 upper case letters)
+      new trip / edit trip detials 
+      new expense type / disable expense type
+
+  5. company admin :
+    new user / edit user (appoint user as admin, or as regular user)
+    disable user
+
+  6.  user details:
+      first name
+      last name
+      role (admin / regualr)
+      login email
+      password
+
+  7.  reports
+      a. activity log (grid with, date, time, user, activity (only data upates e.g. new trip, new trip expense, not data views)
+      b. expense reports to employee (only his expenses in all the trips in all the companies)
 
