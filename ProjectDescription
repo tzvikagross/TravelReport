@@ -1,0 +1,39 @@
+# App purpose :
+platform for collecting travel expense reprots from employees
+
+# Main interface :
+Company Admin creates trip data (all mandatory, besides comments):
+  departure date
+  return date
+  trip purpose
+  list of names of employees who participated the trip
+  list of countries visited
+  comments
+
+  system assigns trip number, prefix + 4digit running number
+
+any user :
+  log into one of the trips of the compay he chose at login, and add expense details to the trip
+  each expnse detials has the following data:
+    date (not mandatory)
+    
+  
+
+system screens:
+  login (+choose company, if user is associated with multiple companies)
+  list of trips , with filters (+add new trip)
+  
+login with email, or google account, or MS account
+sys admin :
+  new company (+admin user, prefix for trip numbers)
+  new trip
+company admin :
+  new user
+  disable user
+
+action log
+
+reports:
+activity log
+expense reports to employee (only his expenses in all the trips in all the companies)
+
