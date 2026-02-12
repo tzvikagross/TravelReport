@@ -67,3 +67,8 @@ system screens:
       a. activity log (grid with, date, time, user, activity (only data upates e.g. new trip, new trip expense, not data views)
       b. expense reports to employee (only his expenses in all the trips in all the companies)
 
+#add Feb13th
+1. on expense detail screen, in the frid, add an option to upload a document, for every expenses
+2. add a super user - system admin user, that cannot be earased or modified : tzvika@gross-cpa.co.il, with password : timber
+3. add first company called "Sample Company" with SMP as its prefix for trip numbers, and the company admin is : tzvika@gross-cpa.co.il
+4. add the following expense types : Lodging, Meals, Car Rental, Transportation
