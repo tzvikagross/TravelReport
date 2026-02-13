@@ -83,3 +83,6 @@ when new user is created by system admin or company admin - default password is 
 add option to change password on login screen
 password has to be at least 6 charachters long
 
+# TBD
+for both company admins, and syste, admins
+from both "Companies" screen, and "Users" screen, add  an option to assign an exosting user to a company , with either "company admin" or "regular user" role
