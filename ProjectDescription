@@ -72,3 +72,14 @@ system screens:
 2. add a super user - system admin user, that cannot be earased or modified : tzvika@gross-cpa.co.il, with password : timber
 3. add first company called "Sample Company" with SMP as its prefix for trip numbers, and the company admin is : tzvika@gross-cpa.co.il
 4. add the following expense types : Lodging, Meals, Car Rental, Transportation
+
+#add
+remove option to register in the login screen
+only system admin can register new company admins
+and only company admin can register new regular users and/opr company admin users
+
+when new user is created by system admin or company admin - default password is Aa123456!
+
+add option to change password on login screen
+password has to be at least 6 charachters long
+
